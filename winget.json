@@ -20,6 +20,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.BuildTools"
+				},
+				{
+					"PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
 				}
 			],
 			"SourceDetails" : 
