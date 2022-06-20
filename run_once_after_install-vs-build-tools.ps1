@@ -8,6 +8,6 @@ if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 
 # Install Visual Studio Desktop Development Workload
-& 'C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe' modify --quiet --norestart --wait `
+& 'C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe' modify --quiet --norestart `
     --add "Microsoft.VisualStudio.Workload.VCTools" `
     --installPath 'C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools'
