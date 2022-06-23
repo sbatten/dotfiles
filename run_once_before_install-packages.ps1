@@ -16,7 +16,7 @@ pwsh -NoLogo -NoProfile -Command {
 
 # Setup Node/Yarn
 nvs add lts
-nvs use lts
+nvs link lts
 npm install --location=global yarn
 
 # Install Font
