@@ -23,4 +23,4 @@ npm install --location=global yarn
 # Install Font
 Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip" -OutFile ~/Downloads/CascadiaCode.zip
 Expand-Archive -Path ~/Downloads/CascadiaCode.zip -DestinationPath ~/Downloads/CascadiaCode
-& "~\Downloads\CascadiaCode\Caskaydia Cove Nerd Font Complete Mono Windows Compatible.ttf"
+& "~\Downloads\CascadiaCode\Caskaydia Cove Nerd Font Complete Mono Windows Compatible Regular.otf"

@@ -16,7 +16,7 @@
 					"PackageIdentifier" : "jasongin.nvs"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3"
+					"PackageIdentifier" : "Python.Python.3.11"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.BuildTools"
