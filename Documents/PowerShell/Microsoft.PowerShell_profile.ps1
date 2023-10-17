@@ -10,4 +10,4 @@ Import-Module z
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\marcduiker.omp.json" | Invoke-Expression
 
-nvs auto on | Out-Null
+fnm env --use-on-cd | Out-String | Invoke-Expression
