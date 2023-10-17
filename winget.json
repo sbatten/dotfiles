@@ -1,59 +1,54 @@
 {
-	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-06-19T18:19:44.895-00:00",
-	"Sources" : 
-	[
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate": "2022-06-19T18:19:44.895-00:00",
+	"Sources": [
 		{
-			"Packages" : 
-			[
+			"Packages": [
 				{
-					"PackageIdentifier" : "Git.Git"
+					"PackageIdentifier": "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode.Insiders"
+					"PackageIdentifier": "Microsoft.VisualStudioCode.Insiders"
 				},
 				{
-					"PackageIdentifier" : "jasongin.nvs"
+					"PackageIdentifier": "Schniz.fnm"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3.11"
+					"PackageIdentifier": "Python.Python.3.11"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudio.2022.BuildTools"
+					"PackageIdentifier": "Microsoft.VisualStudio.2022.BuildTools"
 				},
 				{
 					"PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
 				}
 			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://winget.azureedge.net/cache",
-				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
-				"Name" : "winget",
-				"Type" : "Microsoft.PreIndexed.Package"
+			"SourceDetails": {
+				"Argument": "https://winget.azureedge.net/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
 			}
 		},
 		{
-			"Packages" : 
-			[
+			"Packages": [
 				{
-					"PackageIdentifier" : "9P95ZZKTNRN4"
+					"PackageIdentifier": "9P95ZZKTNRN4"
 				},
 				{
-					"PackageIdentifier" : "9N8G5RFZ9XK3"
+					"PackageIdentifier": "9N8G5RFZ9XK3"
 				},
 				{
-					"PackageIdentifier" : "9WZDNCRDK3WP"
+					"PackageIdentifier": "9WZDNCRDK3WP"
 				}
 			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
-				"Identifier" : "StoreEdgeFD",
-				"Name" : "msstore",
-				"Type" : "Microsoft.Rest"
+			"SourceDetails": {
+				"Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier": "StoreEdgeFD",
+				"Name": "msstore",
+				"Type": "Microsoft.Rest"
 			}
 		}
 	],
-	"WinGetVersion" : "1.2.10941"
+	"WinGetVersion": "1.2.10941"
 }
