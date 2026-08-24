@@ -9,13 +9,20 @@ if ($env:TERM_PROGRAM -ne 'vscode') {
 
 Import-Module -Name Terminal-Icons
 
-if ($env:OS -eq 'Windows_NT') {
+# Aliases
+if ($IsWindows) {
     Set-Alias -Name ci -Value code-insiders.cmd
 } else {
   Set-Alias -Name ci -Value code-insiders
 }
 
 Import-Module z
+
+if ($IsMacOS) {
+  $(/opt/homebrew/bin/brew shellenv) | Invoke-Expression
+  $env:PATH = "$HOME/.config/agency/CurrentVersion:" + $env:PATH
+  $env:PATH = "$HOME/.local/bin:" + $env:PATH
+}
 
 # oh-my-posh init pwsh --config "~\.prompt-theme.omp.json" | Invoke-Expression
 # oh-my-posh init pwsh | Invoke-Expression
