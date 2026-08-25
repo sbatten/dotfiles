@@ -21,7 +21,6 @@ Import-Module z
 if ($IsMacOS) {
   $(/opt/homebrew/bin/brew shellenv) | Invoke-Expression
   $env:PATH = "$HOME/.config/agency/CurrentVersion:" + $env:PATH
-  $env:PATH = "$HOME/.local/bin:" + $env:PATH
 }
 
 # oh-my-posh init pwsh --config "~\.prompt-theme.omp.json" | Invoke-Expression
